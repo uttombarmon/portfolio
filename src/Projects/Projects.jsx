@@ -4,8 +4,8 @@ import techhub from '../assets/p31.png'
 
 const Projects = () => {
     return (
-        <div id='projects' className=' mx-3'>
-            <p className=' w-fit mx-auto text-2xl text-white md:text-4xl py-7'>Projects</p>
+        <div id='projects' className=' mx-3 py-10'>
+            <p className=' w-fit mx-auto text-2xl md:text-4xl font-extrabold py-2 px-6 border-y-8 rounded-se-full rounded-es-full border-sky-600 mb-10'>Projects</p>
             <div>
                 <div className=' flex flex-wrap justify-around'>
                     {/* skyline */}
