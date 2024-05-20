@@ -17,9 +17,9 @@ const Navbar = () => {
     }, [handleScroll]);
     return (
         <div className={`navcss ${visible ? 'visible' : 'hidden'} top-0 z-20 fixed w-full 2xl:w-[1536px] uppercase font-semibold`}>
-            <div className="navbar bg-opacity-20 backdrop-blur-sm bg-white flex justify-between items-center">
+            <div className="navbar bg-opacity-5 backdrop-blur-sm bg-white flex justify-between items-center">
                 <div className="navbar-start md:ml-6">
-                    <a className="font-extrabold text-2xl normal-case">Port<span className="text-[#3ec4ee]">folio</span></a>
+                    <a className="font-extrabold text-2xl normal-case">Port<span className="text-[#29feae]">folio</span></a>
                 </div>
                 <div className="navbar-end md:mr-6">
                     <ul className="mr-10 hidden lg:inline-flex">
@@ -40,7 +40,7 @@ const Navbar = () => {
                             <li><a href="https://docs.google.com/document/d/1_5H3RzAe4-lb8B_sH5lLyABtlL6mwMfmJi8cqpOwwp8/edit?usp=sharing" className="btn btn-primary">Resume</a></li>
                         </ul>
                     </div>
-                    <a href="#" className="btn bg-[#3ec4ee] border-none hover:bg-sky-600 text-black lg:flex hidden">Hire Me</a>
+                    <a href="#" className="btn bg-[#29feae] border-none hover:bg-[#59fc8a] text-black lg:flex hidden">Hire Me</a>
                 </div>
             </div>
         </div>
