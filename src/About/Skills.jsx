@@ -1,8 +1,8 @@
 const skills = {
   frontend: ['React', 'Redux', 'HTML', 'CSS', 'JavaScript', 'Tailwind CSS'],
-  backend: ['Node.js', 'Express', 'GraphQL', 'REST API'],
+  backend: ['Node.js', 'Express', 'REST API'],
   database: ['MongoDB', 'MySQL'],
-  tools: ['Git', 'Docker', 'Jenkins', 'Jira']
+  tools: ['Git', 'Firebase', 'Vercel']
 };
 
 const Skills = () => {
