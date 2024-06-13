@@ -28,3 +28,12 @@
         border-color: #000; /* Cursor color */
     }
 }
+/* 
+@media screen and (max-width: 768px) {
+    .bgImage{
+        background-image: url('./banner-icon.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: brightness(0.5) contrast(150%);
+    }
+} */

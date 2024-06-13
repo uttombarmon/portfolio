@@ -2,7 +2,7 @@
 const Contact = () => {
     return (
         <div id="contact" className={`w-full relative overflow-hidden`}>
-            <p className=' w-fit mx-auto text-2xl md:text-4xl font-extrabold py-2 px-6 border-b-8 border-[#29feae] my-10'>About Me</p>
+            <p className=' w-fit mx-auto text-2xl md:text-4xl font-extrabold py-2 px-6 border-b-8 border-[#29feae] my-10'>Contact Me</p>
             <div className={` h-full opacity-60 blur-3xl absolute w-full bg-[url('./src/Contact/fff.jpg')] bg-cover`}></div>
             <form className=" relative w-full lg:w-2/4 mx-auto px-2 py-5">
                 <div className=" md:flex justify-between">

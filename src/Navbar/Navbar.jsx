@@ -23,9 +23,9 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end md:mr-6">
                     <ul className="mr-10 hidden lg:inline-flex">
-                        <li className=" py-2 px-3 border-y-2 border-transparent active:bg-blue-500 hover:border-blue-500"><a href="#about">About</a></li>
-                        <li className="py-2 px-3 border-y-2 border-transparent active:bg-blue-500 hover:border-blue-500"><a href="#projects">Projects</a></li>
-                        <li className="py-2 px-3 border-y-2 border-transparent active:bg-blue-500 hover:border-blue-500"><a href="#contact">Contact</a></li>
+                        <li className=" py-2 px-3 border-y-2 border-transparent hover:bg-[#29feae] hover:text-black"><a href="#about">About</a></li>
+                        <li className="py-2 px-3 border-y-2 border-transparent hover:bg-[#29feae] hover:text-black"><a href="#projects">Projects</a></li>
+                        <li className="py-2 px-3 border-y-2 border-transparent hover:bg-[#29feae] hover:text-black"><a href="#contact">Contact</a></li>
                     </ul>
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
